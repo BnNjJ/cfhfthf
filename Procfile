@@ -1,1 +1,1 @@
-worker: node <bot-file>
+worker: node index.js
