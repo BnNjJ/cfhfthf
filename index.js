@@ -6,4 +6,4 @@ bot.on('ready', () => {
     bot.user.setActivity('SBT Lounge', {type: 'Watching'})
 
 });
-bot.login("NTI4OTE2NDcyODUzMTY4MTI5.DwpPvw.Ayk-eRHFoG79jSgPf1QZOFe2N-E");
+bot.login(process.env.BOT_TOKEN);
